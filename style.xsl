@@ -105,7 +105,7 @@
             <div class="row">
                 
                 <xsl:for-each select="fotos/foto">
-                    <div class="col-12 col-md-6  col-lg-3 mt-3 justify-content-center">
+                    <div class="col-12 col-sm-6  col-lg-3 mt-3 justify-content-center">
                     <div class="card rounded-4 border-0 h-100">
                         <img class="card-img-top img-fluid rounded-4 w-100 h-100 "
                             src="{foto}" alt="Title" />
